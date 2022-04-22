@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(pink,blue);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 1000px;
+    /* margin: 0px; */
+}
+.container {
+    /* background-color: aquamarine; */
+    background-image: url(https://i.gifer.com/embedded/download/Jcx.gif);
+    width: 600px;
+    margin: auto;
+    border: 2px solid red;
+    /* background:transparent ; */
+    
+}
+.fa{
+    color: white;
+}
+
+
+
+.container h2{
+    padding: 28px 0px 10px 0px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(253, 253, 253);
+    /* margin: 0px; */
+}
+/* .container .form-container{
+    display: flex;
+} */
+
+.input-name{
+    margin: 8px;
+}
+
+.input-name .name{
+    text-align: center;
+}
+.input-name .email{
+    text-align: center;
+}
+.input-name .password{
+    text-align: center;
+}
+
+.input-name .button1 {
+    margin-bottom: 10px;
+}
+
+.input-name .radio-button{
+    color: white;
+}
+
+.input-name .check-button{
+    color: green;
+}
+
+.input-name .age{
+    width: 40px;
+}
+
+@media(max-width:425px){
+    .container{
+        width: 307px;
+        text-align: center;
+    }
+    .input-name span{
+        display: block;
+        padding-top: 10px;
+    }
+    .container h2{
+        font-size: 30px;
+    }
+
+}

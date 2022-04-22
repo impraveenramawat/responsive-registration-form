@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <div class="form-container">
+            <form action="#">
+
+                <div class="input-name">
+
+                <span>
+                    <label for="user1"><i class="fa fa-user"></i></label>
+                    <input type="text" placeholder="First Name" class="name" id="user1" required>
+                </span>
+
+                    <span>
+                        <label for="user2"><i class="fa fa-user"></i></label>
+                        <input type="text" placeholder="Last Name" class="name" id="user2">
+                    </span>
+                </div>
+
+                <div class="input-name">
+                    <i class="fa fa-envelope email"></i>
+                    <input type="email" placeholder="E-mail" class="email">
+                </div>
+
+                <div class="input-name">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Enter Password" class="password">
+                </div>
+
+                <div class="input-name">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Confirm Password" class="password">
+                </div>
+
+                <div class="input-name">
+                    <input type="radio" class="radio-button" id="male" name="g1">
+                    <label for="male" class="radio-button">Male</label>
+                    
+                    <input type="radio" class="radio-button" id="female" name="g1">
+                    <label for="female" class="radio-button">Female</label>
+                </div>
+
+                <div class="input-name">
+                    <label class="radio-button">Date</label>
+                    <input type="date" class="date" name="d1">
+                    
+                </div>
+
+                <div class="input-name">
+                    <label class="radio-button">Age</label>
+                    <input type="number" class="age" name="d1" value="1">
+                    
+                </div>
+
+                <div class="input-name">
+                    <select name="country" id="country1">
+                        <option>Select Country</option>
+                        <option>India</option>
+                        <option>Germany</option>
+                        <option>Nepal</option>
+                        <option>Russia</option>
+                        <option>America</option>
+                        
+                    </select>
+                    <div class="arrow"></div>
+                </div>
+
+                <div class="input-name">
+                    <input type="checkbox" class="check-button" >
+                    <label class="radio-button">I Accept the Terms and Condition</label>
+                </div>
+
+                <div class="input-name">
+                    <input type="submit" class="button" value="Register" >
+
+                    <span>
+                        <input type="reset" class="button1" value="Reset">
+                    </span>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
